@@ -420,8 +420,8 @@ let currentSlideTwo = target.slick('slickCurrentSlide');
     let currentModeTwo = checkVideoYoutubeNone(target, currentSlideTwo);
       if(currentModeTwo === "video"){
 //          target.slick("slickPause");
-          let currentVideoTwo = target.find('[data-slick-index="'+currentSlide+'"] video');
-          playVideoTwo(target, currentVideo)
+          let currentVideoTwo = target.find('[data-slick-index="'+currentSlideTwo+'"] video');
+          playVideoTwo(target, currentVideoTwo)
       }
     else if(currentModeTwo === "youtube"){
           playYoutubeTwo(target, currentSlideTwo)  
